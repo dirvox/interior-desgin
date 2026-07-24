@@ -1,6 +1,4 @@
-"use client";
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const processSteps = [
   {
@@ -34,60 +32,30 @@ const processSteps = [
 ];
 
 export default function OurProcess() {
-  // Animation variants
-  const imageVariants = (isLeft) => ({
-    hidden: { opacity: 0, x: isLeft ? -60 : 60, scale: 0.95 },
-    visible: {
-      opacity: 1,
-      x: 0,
-      scale: 1,
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
-    },
-  });
-
-  const textVariants = (isLeft) => ({
-    hidden: { opacity: 0, x: isLeft ? 60 : -60 },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.15 },
-    },
-  });
-
   return (
     <section className="w-full bg-[#f5f1ea] py-20 px-6 sm:px-12 lg:px-24 font-sans text-[#1c1c1c]">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}
-        <motion.div 
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.7 }}
-          className="text-center max-w-xl mx-auto mb-20 space-y-2"
-        >
+        <div className="text-center max-w-xl mx-auto mb-20 space-y-2">
           <p className="text-xs sm:text-sm tracking-[0.25em] uppercase font-semibold text-[#9e712a]">
             OUR APPROACH
           </p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal">
             Our Process
           </h2>
-        </motion.div>
+        </div>
 
         {/* Process Steps Loop */}
         <div className="space-y-24 md:space-y-36">
-          {processSteps.map((step, index) => (
+          {processSteps.map((step) => (
             <div
               key={step.number}
               className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 items-center"
             >
               
               {/* IMAGE COLUMN */}
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.3 }}
-                variants={imageVariants(step.imageLeft)}
+              <div
                 className={`md:col-span-6 ${
                   step.imageLeft ? "md:order-1" : "md:order-2"
                 }`}
@@ -99,14 +67,10 @@ export default function OurProcess() {
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
                 </div>
-              </motion.div>
+              </div>
 
               {/* TEXT COLUMN */}
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.3 }}
-                variants={textVariants(step.imageLeft)}
+              <div
                 className={`md:col-span-6 flex flex-col justify-center ${
                   step.imageLeft ? "md:order-2" : "md:order-1"
                 }`}
@@ -125,7 +89,7 @@ export default function OurProcess() {
                 <p className="text-sm sm:text-base text-[#6b655f] font-light leading-relaxed max-w-md">
                   {step.description}
                 </p>
-              </motion.div>
+              </div>
 
             </div>
           ))}
