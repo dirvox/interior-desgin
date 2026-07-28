@@ -8,6 +8,7 @@ import CTASection from './CTASection'
 import VideoShowcase from './VideoShowcase'
 import OurProcess from './OurProcess'
 import LeadFormSection from './LeadFormSection'
+import FAQSection from './FAQSection'
 
 
 const HomeMain = () => {
@@ -21,6 +22,7 @@ const HomeMain = () => {
          <VideoShowcase/>
            <CTASection/>
         <TestimonialsSection/>
+        <FAQSection/>
        
       
        <LeadFormSection/>

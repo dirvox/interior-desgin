@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
-export default function HeroSection() {
+export default function  HeroSection() {
   // Container animation variants for staggered children reveal
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -30,7 +30,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative w-full min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden font-sans">
+    <section className="relative w-full min-h-screen md:min-h-screen flex items-center justify-center overflow-hidden font-sans">
       
       {/* 
         Responsive Background Images:
@@ -42,7 +42,7 @@ export default function HeroSection() {
         <div 
           className="block md:hidden absolute inset-0 bg-cover bg-center transition-all duration-700 scale-105"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop')`,
+            backgroundImage: `url('/hero-phone.png')`,
           }}
         />
 
@@ -50,12 +50,12 @@ export default function HeroSection() {
         <div 
           className="hidden md:block absolute inset-0 bg-cover bg-center transition-all duration-700 scale-105"
           style={{
-            backgroundImage: `url('/hero-image.avif')`,
+            backgroundImage: `url('/hero-image.PNG')`,
           }}
         />
 
         {/* Dark Warm Overlay for High Contrast & Text Readability */}
-        <div className="absolute inset-0 bg-black/50 backdrop-brightness-90" />
+        <div className="absolute inset-0 bg-black/10 backdrop-brightness-90" />
       </div>
 
       {/* Hero Content Overlay */}
@@ -68,7 +68,7 @@ export default function HeroSection() {
         {/* Subtitle Accent Line */}
         <motion.p 
           variants={itemVariants}
-          className="text-xs sm:text-sm md:text-base tracking-[0.25em] uppercase font-semibold text-[#c89852] mb-4 md:mb-6"
+          className="text-xs sm:text-sm md:text-base tracking-[0.25em] uppercase font-semibold text-[#000000] mb-4 md:mb-6"
         >
           Interior & Furniture Design Studio
         </motion.p>

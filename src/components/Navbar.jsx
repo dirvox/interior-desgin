@@ -4,7 +4,7 @@ import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-
 import { ArrowRight, Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { name: 'About', href: '#about' },
+  { name: 'About', href: '/about-us' },
   { name: 'Services', href: '#services' },
   { name: 'Blogs', href: '#blogs' },
   { name: 'Portfolio', href: '#portfolio' },

@@ -5,28 +5,28 @@ const processSteps = [
     number: "1",
     title: "Discovery & Consultation",
     description: "Understanding your vision, requirements, and lifestyle to lay a strong foundational blueprint.",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+    image: "/process-1.png",
     imageLeft: true, // Image Left, Text Right
   },
   {
     number: "2",
     title: "Concept Design",
     description: "Developing detailed spatial layouts, material palettes, and architectural design direction.",
-    image: "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=1200&auto=format&fit=crop",
+    image: "/process-2.png",
     imageLeft: false, // Text Left, Image Right
   },
   {
     number: "3",
     title: "3D Visualization",
     description: "Photorealistic renders of your future space to visualize every light, texture, and detail.",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+    image: "/process-3.png",
     imageLeft: true, // Image Left, Text Right
   },
   {
     number: "4",
     title: "Production & Installation",
     description: "Precision craftsmanship and flawless execution delivered on schedule.",
-    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop",
+    image: "/process-4.png",
     imageLeft: false, // Text Left, Image Right
   },
 ];
