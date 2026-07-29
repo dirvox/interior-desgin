@@ -4,10 +4,11 @@ import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-
 import { ArrowRight, Menu, X } from 'lucide-react';
 
 const navLinks = [
+   { name: 'Home', href: '/' },
   { name: 'About', href: '/about-us' },
-  { name: 'Services', href: '#services' },
-  { name: 'Blogs', href: '#blogs' },
-  { name: 'Portfolio', href: '#portfolio' },
+  { name: 'Services', href: '/services' },
+  { name: 'Blogs', href: '/blogs' },
+  { name: 'Portfolio', href: '/portfolio' },
 ];
 
 export default function Navbar() {
@@ -61,13 +62,13 @@ export default function Navbar() {
         
         {/* Brand / Logo */}
         <motion.a 
-          href="#" 
+          href="/" 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
           className="text-2xl md:text-3xl font-extrabold font-serif tracking-widest text-[#1c1c1c]"
         >
-          INTORIDA
+          Artivio
         </motion.a>
 
         {/* Desktop Links */}
@@ -97,7 +98,7 @@ export default function Navbar() {
         {/* Desktop Call To Action Button */}
         <div className="hidden md:flex items-center">
           <motion.a
-            href="#book"
+            href="/booking"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             className="group flex items-center gap-3 bg-[#9e712a] hover:bg-[#886022] text-white px-6 py-2.5 text-sm font-medium transition-all shadow-md rounded-sm"

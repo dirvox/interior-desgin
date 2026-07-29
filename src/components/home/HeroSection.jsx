@@ -68,7 +68,7 @@ export default function  HeroSection() {
         {/* Subtitle Accent Line */}
         <motion.p 
           variants={itemVariants}
-          className="text-xs sm:text-sm md:text-base tracking-[0.25em] uppercase font-semibold text-[#000000] mb-4 md:mb-6"
+          className="text-xs sm:text-sm md:text-base tracking-[0.25em] uppercase font-semibold text-[#ffffff] mb-4 md:mb-6"
         >
           Interior & Furniture Design Studio
         </motion.p>

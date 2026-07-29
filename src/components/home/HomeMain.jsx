@@ -9,6 +9,7 @@ import VideoShowcase from './VideoShowcase'
 import OurProcess from './OurProcess'
 import LeadFormSection from './LeadFormSection'
 import FAQSection from './FAQSection'
+import Transform from './Transform'
 
 
 const HomeMain = () => {
@@ -18,6 +19,7 @@ const HomeMain = () => {
         <PhilosophyStats/>
         <ScrollingServices/>
          <OurProcess/>
+         <Transform/>
         <PortfolioSection/>
          <VideoShowcase/>
            <CTASection/>

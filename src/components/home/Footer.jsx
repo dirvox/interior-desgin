@@ -114,9 +114,9 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[13vw] sm:text-[16vw] lg:text-[13vw] font-serif font-extrabold text-white tracking-widest leading-none select-none overflow-hidden text-center md:text-left -mb-4"
+            className="text-[13vw] sm:text-[16vw] lg:text-[15vw] font-serif font-extrabold text-white tracking-widest leading-none select-none overflow-hidden text-center md:text-left -mb-4"
           >
-            INTORIDA
+            ARTIVIO
           </motion.h1>
 
         </div>
@@ -128,7 +128,7 @@ export default function Footer() {
         <svg className="w-3.5 h-3.5 fill-current text-black" viewBox="0 0 24 24">
           <path d="M12 2L2 22h20L12 2z"/>
         </svg>
-        <span>Made in Framer</span>
+        <span>Made BY Devansh</span>
       </div>
     </footer>
   );
