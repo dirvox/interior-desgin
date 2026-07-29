@@ -50,7 +50,7 @@ export default function  HeroSection() {
         <div 
           className="hidden md:block absolute inset-0 bg-cover bg-center transition-all duration-700 scale-105"
           style={{
-            backgroundImage: `url('/hero-image.PNG')`,
+            backgroundImage: `url('/heroimage.webp')`,
           }}
         />
 

@@ -15,7 +15,7 @@ export default function AboutSection() {
           className="text-center mb-20"
         >
           <p className="uppercase tracking-[5px] text-[#B68A4A] text-sm font-medium mb-5">
-            About Intorida
+            About Artivio
           </p>
 
           <h2 className="text-[#1B1B1B] font-serif text-4xl md:text-5xl lg:text-6xl leading-tight max-w-5xl mx-auto">

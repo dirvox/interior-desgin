@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const AboutHero = () => {
   // The heading text split into words for the staggered animation
-  const headingText = "About Intorida Studio";
+  const headingText = "About Artivio Studio";
   const words = headingText.split(" ");
 
   // Framer Motion Variants for the container to stagger children
@@ -79,7 +79,7 @@ const AboutHero = () => {
         {/* Replace the src with your actual interior image path */}
         <img
           src="/about-hero.jpeg"
-          alt="Refined interior space by Intorida Studio"
+          alt="Refined interior space by Artivio Studio"
           className="w-full h-full object-contain opacity-80"
         />
         

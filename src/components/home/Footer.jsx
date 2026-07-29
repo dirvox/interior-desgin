@@ -108,7 +108,7 @@ export default function Footer() {
             />
           </motion.div>
 
-          {/* Massive Brand Name "INTORIDA" */}
+          {/* Massive Brand Name "Artivio" */}
           <motion.h1 
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
