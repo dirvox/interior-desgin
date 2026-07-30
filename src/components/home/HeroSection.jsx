@@ -42,7 +42,7 @@ export default function  HeroSection() {
         <div 
           className="block md:hidden absolute inset-0 bg-cover bg-center transition-all duration-700 scale-105"
           style={{
-            backgroundImage: `url('/hero-phone.png')`,
+            backgroundImage: `url('/hero-phone-new.png')`,
           }}
         />
 
