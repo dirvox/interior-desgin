@@ -75,7 +75,7 @@ export default function CTASection() {
           {/* CTA Button */}
           <motion.div variants={itemVariants}>
             <motion.a
-              href="/portfolio"
+              href="/booking"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="group inline-flex items-center justify-center gap-3 bg-[#9e712a] hover:bg-[#886022] text-white px-7 sm:px-9 py-3.5 sm:py-4 text-sm md:text-base font-medium transition-all shadow-lg rounded-sm"

@@ -133,7 +133,7 @@ export default function ServicesHero() {
               className="mt-10 flex flex-wrap gap-4"
             >
               <Link
-                href="/contact"
+                href="/booking"
                 className="group flex items-center gap-2 rounded-full bg-black px-8 py-4 font-semibold text-white transition hover:bg-[#d8a55a]"
               >
                 Get Free Consultation
