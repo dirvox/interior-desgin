@@ -11,9 +11,9 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop',
     rating: 5,
     quote: '"Reminds me of my childhood! The traditional jaggery blocks have that authentic, earthy taste you just can’t find in supermarkets anymore. Absolutely pure."',
-    mainImage: 'https://images.unsplash.com/photo-1616422285623-14bf929d186c?q=80&w=1200&auto=format&fit=crop', // Sugarcane/farm/food vibe
-    leftPreview: 'https://images.unsplash.com/photo-1596647242821-6677983636f3?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1620665287754-5231cda089e9?q=80&w=600&auto=format&fit=crop',
+    mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
+    leftPreview: '/images/IMG_7794.PNG',
+    rightPreview: '/images/IMG_4881.JPG.jpeg',
   },
   {
     id: 2,
@@ -22,10 +22,9 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop',
     rating: 5,
     quote: '"I’ve replaced all refined sugar in my bakery with Khatauli Gud powder. The texture is phenomenal, and my customers love the rich, natural caramel-like flavor it adds."',
-    mainImage: 'https://images.unsplash.com/photo-1596647242821-6677983636f3?q=80&w=1200&auto=format&fit=crop',
-    leftPreview: 'https://images.unsplash.com/photo-1616422285623-14bf929d186c?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=600&auto=format&fit=crop',
-  },
+    mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
+    leftPreview: '/images/IMG_7794.PNG',
+    rightPreview: '/images/IMG_4881.JPG.jpeg',  },
   {
     id: 3,
     name: 'Dr. Anil Kumar',
@@ -33,10 +32,9 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop',
     rating: 5,
     quote: '"Exceptional quality. I always recommend this to my clients looking for a healthier, chemical-free alternative to sugar. Packed with essential minerals and incredibly clean."',
-    mainImage: 'https://images.unsplash.com/photo-1620665287754-5231cda089e9?q=80&w=1200&auto=format&fit=crop',
-    leftPreview: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1616422285623-14bf929d186c?q=80&w=600&auto=format&fit=crop',
-  },
+      mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
+    leftPreview: '/images/IMG_7794.PNG',
+    rightPreview: '/images/IMG_4881.JPG.jpeg',  },
   {
     id: 4,
     name: 'Sarah Jenkins',
@@ -44,10 +42,9 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&auto=format&fit=crop',
     rating: 5,
     quote: '"The jaggery cubes are a game changer for my morning tea. So pure, perfectly portioned, and they dissolve beautifully. I love that it’s completely natural!"',
-    mainImage: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1200&auto=format&fit=crop',
-    leftPreview: 'https://images.unsplash.com/photo-1620665287754-5231cda089e9?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1596647242821-6677983636f3?q=80&w=600&auto=format&fit=crop',
-  },
+  mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
+    leftPreview: '/images/IMG_7794.PNG',
+    rightPreview: '/images/IMG_4881.JPG.jpeg',  },
 ];
 
 export default function TestimonialsSection() {
