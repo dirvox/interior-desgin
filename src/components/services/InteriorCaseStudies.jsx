@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 // Sample data for the 8-9 interior design case studies
 const caseStudies = [
@@ -39,7 +40,8 @@ export default function InteriorCaseStudies() {
               </h2>
               
               {/* Custom styled button matching the image's corner accents */}
-              <button className="relative group bg-[#e5d1b8] hover:bg-[#d7bc9e] transition-colors duration-300 px-8 py-4 text-sm font-semibold tracking-wider text-black">
+              <Link href={"/portfolio"}>
+              <button className="relative cursor-pointer group bg-[#e5d1b8] hover:bg-[#d7bc9e] transition-colors duration-300 px-8 py-4 text-sm font-semibold tracking-wider text-black">
                 {/* Corner aesthetic accents */}
                 <span className="absolute top-0 left-0 w-2 h-2 border-t border-l border-black -translate-x-1 -translate-y-1 opacity-50"></span>
                 <span className="absolute top-0 right-0 w-2 h-2 border-t border-r border-black translate-x-1 -translate-y-1 opacity-50"></span>
@@ -47,6 +49,7 @@ export default function InteriorCaseStudies() {
                 <span className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-black translate-x-1 translate-y-1 opacity-50"></span>
                 MORE WORKS
               </button>
+              </Link>
             </motion.div>
 
           </div>

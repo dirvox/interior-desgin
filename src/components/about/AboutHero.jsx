@@ -33,17 +33,17 @@ const AboutHero = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#f4f0eb] text-zinc-100 flex flex-col items-center pt-24 md:pt-32 px-6 md:px-12 lg:px-24">
+    <section className="md:bg-[#f4f0eb] text-zinc-100 flex flex-col items-center pt-24 md:pt-32 px-6 md:px-12 lg:px-24">
       
       {/* Text Content Container */}
       <motion.div
-        className="w-full max-w-4xl flex flex-col items-center text-center mb-16 md:mb-24"
+        className="w-full max-w-4xl flex flex-col items-center text-center mb-2 md:mb-10"
         initial="hidden"
         animate="visible"
         variants={containerVariants}
       >
         {/* Staggered Heading Animation */}
-        <h1 className="text-4xl  md:text-6xl lg:text-7xl font-serif text-black tracking-wide mb-6 md:mb-8 flex flex-wrap justify-center gap-x-3 md:gap-x-4">
+        <h1 className="text-4xl  md:text-6xl lg:text-7xl font-serif text-black tracking-wide mb-2 md:mb-8 flex flex-wrap justify-center gap-x-3 md:gap-x-4">
           {words.map((word, index) => (
             <motion.span
               key={index}
@@ -80,12 +80,10 @@ const AboutHero = () => {
         <img
           src="/about-hero.jpeg"
           alt="Refined interior space by Artivio Studio"
-          className="w-full h-full object-contain opacity-80"
+          className="w-full h-full object-contain "
         />
         
-        {/* Optional: Subtle gradient overlay to blend the image into the dark background */}
-        {/* <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent opacity-60 pointer-events-none"></div> */}
-      </motion.div>
+            </motion.div>
       
     </section>
   );

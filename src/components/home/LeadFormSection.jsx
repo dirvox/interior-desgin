@@ -17,10 +17,37 @@ export default function LeadFormSection() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsSubmitted(true);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setIsSubmitted(true);
+  // };
+
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch(
+      "https://script.google.com/macros/s/AKfycbyfnY_8_VAdtbnrGNoFMYp0LKuy0mUdjz_1rmIDGWZkkpsEwyk4xlPJI-mmKqZiHq9O/exec",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      }
+    );
+
+    const data = await res.json();
+
+    console.log("Data is devansh " , data)
+
+    if (data.success) {
+      setIsSubmitted(true);
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
 
   return (
     <section className="w-full bg-[#f5f1ea] py-16 sm:py-20 md:py-24 px-4 sm:px-8 md:px-12 lg:px-20 font-sans text-[#1c1c1c] overflow-hidden">

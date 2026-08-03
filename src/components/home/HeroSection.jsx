@@ -1,9 +1,10 @@
-"use client"
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
-export default function  HeroSection() {
+export default function HeroSection() {
   // Container animation variants for staggered children reveal
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -31,7 +32,6 @@ export default function  HeroSection() {
 
   return (
     <section className="relative w-full min-h-screen md:min-h-screen flex items-center justify-center overflow-hidden font-sans">
-      
       {/* 
         Responsive Background Images:
         1. Mobile View: Hidden on md+ screens (block md:hidden)
@@ -39,7 +39,7 @@ export default function  HeroSection() {
       */}
       <div className="absolute inset-0 z-0">
         {/* Mobile Background Image (Vertical aspect ratio optimization) */}
-        <div 
+        <div
           className="block md:hidden absolute inset-0 bg-cover bg-center transition-all duration-700 scale-105"
           style={{
             backgroundImage: `url('/hero-phone-new.png')`,
@@ -47,7 +47,7 @@ export default function  HeroSection() {
         />
 
         {/* Desktop / Laptop Background Image (Horizontal aspect ratio optimization) */}
-        <div 
+        <div
           className="hidden md:block absolute inset-0 bg-cover bg-center transition-all duration-700 scale-105"
           style={{
             backgroundImage: `url('/heroimage.webp')`,
@@ -59,14 +59,14 @@ export default function  HeroSection() {
       </div>
 
       {/* Hero Content Overlay */}
-      <motion.div 
+      <motion.div
         className="relative z-10 max-w-5xl mx-auto px-6 py-20 text-center text-white flex flex-col items-center justify-center"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         {/* Subtitle Accent Line */}
-        <motion.p 
+        <motion.p
           variants={itemVariants}
           className="text-xs sm:text-sm md:text-base tracking-[0.25em] uppercase font-semibold text-[#ffffff] mb-4 md:mb-6"
         >
@@ -74,7 +74,7 @@ export default function  HeroSection() {
         </motion.p>
 
         {/* Main Headline */}
-        <motion.h1 
+        <motion.h1
           variants={itemVariants}
           className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-normal tracking-tight text-white leading-[1.1] mb-6 max-w-4xl"
         >
@@ -83,38 +83,46 @@ export default function  HeroSection() {
         </motion.h1>
 
         {/* Paragraph Description */}
-        <motion.p 
+        <motion.p
           variants={itemVariants}
           className="text-sm sm:text-base md:text-lg text-gray-200 font-light max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          We create refined spaces through bespoke furniture, architectural harmony, and thoughtful craftsmanship.
+          We create refined spaces through bespoke furniture, architectural
+          harmony, and thoughtful craftsmanship.
         </motion.p>
 
         {/* Call to Action Buttons */}
-        <motion.div 
+        <motion.div
           variants={itemVariants}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full sm:w-auto"
         >
           {/* Primary CTA */}
-          <motion.a
-            href="#projects"
+            <Link href="/portfolio">
+          <motion
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             className="w-full sm:w-auto group flex items-center justify-center gap-3 bg-[#9e712a] hover:bg-[#886022] text-white px-8 py-4 text-sm md:text-base font-medium transition-all shadow-lg rounded-sm"
           >
-            <span>Explore our projects</span>
-            <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-          </motion.a>
-
+          
+              <span>Explore our projects</span>
+              <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+           
+          </motion>
+ </Link>
           {/* Secondary CTA */}
-          <motion.a
-            href="#consultation"
-            whileHover={{ scale: 1.03, backgroundColor: 'rgba(255, 255, 255, 0.15)' }}
+           <Link   href="/booking">
+          <motion
+          
+            whileHover={{
+              scale: 1.03,
+              backgroundColor: "rgba(255, 255, 255, 0.15)",
+            }}
             whileTap={{ scale: 0.97 }}
             className="w-full sm:w-auto flex items-center justify-center bg-transparent border border-white/60 hover:border-white text-white px-8 py-4 text-sm md:text-base font-medium transition-all rounded-sm backdrop-blur-sm"
           >
             Book a free consultation
-          </motion.a>
+          </motion>
+          </Link>
         </motion.div>
       </motion.div>
 

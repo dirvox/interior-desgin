@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
+import Link from "next/link";
 
 // --- Mock Data ---
 const categories = ["All", "Living Room", "Kitchen", "Bedroom", "Office", "Commercial"];
@@ -207,9 +208,11 @@ export default function PortfolioHero() {
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <h2 className="font-serif text-5xl md:text-6xl mb-6">Let's Design Your Dream Home</h2>
           <p className="text-stone-500 mb-10 text-lg">Book a complimentary consultation with our lead designers today.</p>
+          <Link href={"/contact"}>
           <button className="bg-[#9e712a] text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-stone-900 transition-colors shadow-xl hover:shadow-2xl">
             Start Your Project
           </button>
+          </Link>
         </motion.div>
       </section>
 

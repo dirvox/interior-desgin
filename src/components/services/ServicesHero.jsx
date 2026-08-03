@@ -142,7 +142,7 @@ export default function ServicesHero() {
               </Link>
 
               <Link
-                href="/projects"
+                href="/portfolio"
                 className="rounded-full border border-gray-300 px-8 py-4 font-semibold hover:bg-white"
               >
                 View Projects

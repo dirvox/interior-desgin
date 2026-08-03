@@ -72,7 +72,7 @@ export default function VideoShowcase() {
             scale: videoScale,
             borderRadius: videoRadius,
           }}
-          className="relative z-10 w-full h-full max-w-[90vw] md:max-w-[100vw] max-h-[60vh] md:max-h-[100vh] shadow-2xl overflow-hidden flex items-center justify-center bg-black origin-center transition-all duration-100 ease-linear"
+          className="relative z-10 w-full h-full max-w-[100vw] md:max-w-[100vw] max-h-[60vh] md:max-h-[100vh] shadow-2xl overflow-hidden flex items-center justify-center bg-black origin-center transition-all duration-100 ease-linear"
         >
           <video
             ref={videoRef}

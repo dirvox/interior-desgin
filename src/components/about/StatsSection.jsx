@@ -59,7 +59,7 @@ function Counter({ value, suffix }) {
 
 export default function StatsSection() {
   return (
-    <section className="bg-[#f4f0eb] py-20 overflow-hidden">
+    <section className="bg-[#f4f0eb] pb-20 md:py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Top Stats */}

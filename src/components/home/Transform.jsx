@@ -6,7 +6,7 @@ const Transform = () => {
   return (
     <div>
       <section className="max-w-5xl mx-auto px-4 mb-32 mt-20 text-center">
-        <h2 className="font-serif text-5xl mb-4">The Transformation</h2>
+        <h2 className="font-serif text-3xl md:text-5xl mb-4">The Transformation</h2>
         <p className="text-stone-500 mb-12">
           Drag the slider to see the difference.
         </p>

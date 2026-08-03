@@ -10,6 +10,7 @@ import OurProcess from './OurProcess'
 import LeadFormSection from './LeadFormSection'
 import FAQSection from './FAQSection'
 import Transform from './Transform'
+import OurProcessAnimation from './OurProcessAnimation'
 
 
 const HomeMain = () => {
@@ -18,7 +19,9 @@ const HomeMain = () => {
         <HeroSection/>
         <PhilosophyStats/>
         <ScrollingServices/>
-         <OurProcess/>
+         {/* <OurProcess/> */}
+         <OurProcessAnimation/>
+
          <Transform/>
         <PortfolioSection/>
          <VideoShowcase/>

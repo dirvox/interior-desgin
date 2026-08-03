@@ -177,7 +177,7 @@ export default function Navbar() {
               ))}
 
               <MotionLink
-                href="#book"
+                href="/booking"
                 custom={navLinks.length}
                 variants={linkVariants}
                 initial="closed"

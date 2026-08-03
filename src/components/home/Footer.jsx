@@ -1,13 +1,15 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Mail } from 'lucide-react';
+import Link from 'next/link'
 
 const footerLinks = [
-  { name: 'Home', href: '#' },
-  { name: 'Portfolio', href: '#portfolio' },
-  { name: 'About us', href: '#about' },
-  { name: 'Contact', href: '#contact' },
-  { name: 'Blogs', href: '#blogs' },
+  { name: 'Home', href: '/' },
+  { name: 'Portfolio', href: '/portfolio' },
+  { name: 'About us', href: '/about-us' },
+  { name: 'Contact', href: 'contact' },
+  { name: 'Blogs', href: '/blogs' },
 ];
 
 export default function Footer() {
@@ -70,13 +72,13 @@ export default function Footer() {
             className="lg:col-span-3 flex flex-col space-y-3 pt-2"
           >
             {footerLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 href={link.href}
                 className="text-gray-300 hover:text-[#9e712a] text-sm md:text-base font-light transition-colors w-max"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </motion.div>
 
@@ -124,12 +126,24 @@ export default function Footer() {
       </div>
 
       {/* Decorative "Made in Framer" Badge (Bottom Right) */}
-      <div className="absolute bottom-4 right-4 z-30 hidden sm:flex items-center gap-2 bg-white text-black px-3 py-1.5 rounded text-xs font-semibold shadow-md">
-        <svg className="w-3.5 h-3.5 fill-current text-black" viewBox="0 0 24 24">
-          <path d="M12 2L2 22h20L12 2z"/>
-        </svg>
-        <span>Made BY Devansh</span>
-      </div>
+       <motion.div
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="absolute bottom-4 right-4 z-30 hidden sm:block"
+    >
+      <a
+        href="mailto:devanshjinraniya46@gmail.com?subject=Website%20Inquiry"
+        className="group flex items-center gap-2 rounded-full border border-gray-200 bg-white/95 px-4 py-2 text-xs font-semibold text-gray-800 shadow-lg backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-[#b57b44] hover:text-[#b57b44] hover:shadow-xl"
+      >
+        <Mail
+          size={14}
+          className="transition-transform duration-300 group-hover:scale-110"
+        />
+
+        <span>Made by Devansh</span>
+      </a>
+    </motion.div>
     </footer>
   );
 }

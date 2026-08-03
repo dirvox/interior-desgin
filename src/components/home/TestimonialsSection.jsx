@@ -6,47 +6,47 @@ import { ArrowLeft, ArrowRight, Star } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: 'Michael Anderson',
-    role: 'Interior Consultant',
+    name: 'Priya Sharma',
+    role: 'Homemaker',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"The craftsmanship exceeded my expectations. Every detail feels refined, and the space looks elegant. The team delivered outstanding quality on time."',
-    mainImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
-    leftPreview: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600&auto=format&fit=crop',
+    quote: '"Reminds me of my childhood! The traditional jaggery blocks have that authentic, earthy taste you just can’t find in supermarkets anymore. Absolutely pure."',
+    mainImage: 'https://images.unsplash.com/photo-1616422285623-14bf929d186c?q=80&w=1200&auto=format&fit=crop', // Sugarcane/farm/food vibe
+    leftPreview: 'https://images.unsplash.com/photo-1596647242821-6677983636f3?q=80&w=600&auto=format&fit=crop',
+    rightPreview: 'https://images.unsplash.com/photo-1620665287754-5231cda089e9?q=80&w=600&auto=format&fit=crop',
   },
   {
     id: 2,
-    name: 'Sophia Reynolds',
-    role: 'Architectural Designer',
+    name: 'David Chen',
+    role: 'Artisan Baker',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"An extraordinary transformation! Their bespoke approach brought warmth and sophistication to our home while maintaining seamless functionality."',
-    mainImage: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=1200&auto=format&fit=crop',
-    leftPreview: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=600&auto=format&fit=crop',
+    quote: '"I’ve replaced all refined sugar in my bakery with Khatauli Gud powder. The texture is phenomenal, and my customers love the rich, natural caramel-like flavor it adds."',
+    mainImage: 'https://images.unsplash.com/photo-1596647242821-6677983636f3?q=80&w=1200&auto=format&fit=crop',
+    leftPreview: 'https://images.unsplash.com/photo-1616422285623-14bf929d186c?q=80&w=600&auto=format&fit=crop',
+    rightPreview: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=600&auto=format&fit=crop',
   },
   {
     id: 3,
-    name: 'David Vance',
-    role: 'Commercial Project Lead',
+    name: 'Dr. Anil Kumar',
+    role: 'Nutritionist',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"Working with Arkwood was a breeze. From concept drawings to final installation, the professionalism and attention to detail were world-class."',
-    mainImage: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop',
-    leftPreview: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=600&auto=format&fit=crop',
+    quote: '"Exceptional quality. I always recommend this to my clients looking for a healthier, chemical-free alternative to sugar. Packed with essential minerals and incredibly clean."',
+    mainImage: 'https://images.unsplash.com/photo-1620665287754-5231cda089e9?q=80&w=1200&auto=format&fit=crop',
+    leftPreview: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=600&auto=format&fit=crop',
+    rightPreview: 'https://images.unsplash.com/photo-1616422285623-14bf929d186c?q=80&w=600&auto=format&fit=crop',
   },
   {
     id: 4,
-    name: 'Emma Watson',
-    role: 'Luxury Homeowner',
+    name: 'Sarah Jenkins',
+    role: 'Health Enthusiast',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"Flawless execution! Their sustainable wood choices paired with modern aesthetics gave our living space a unique, timeless identity."',
-    mainImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop',
-    leftPreview: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=600&auto=format&fit=crop',
-    rightPreview: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600&auto=format&fit=crop',
+    quote: '"The jaggery cubes are a game changer for my morning tea. So pure, perfectly portioned, and they dissolve beautifully. I love that it’s completely natural!"',
+    mainImage: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1200&auto=format&fit=crop',
+    leftPreview: 'https://images.unsplash.com/photo-1620665287754-5231cda089e9?q=80&w=600&auto=format&fit=crop',
+    rightPreview: 'https://images.unsplash.com/photo-1596647242821-6677983636f3?q=80&w=600&auto=format&fit=crop',
   },
 ];
 
@@ -94,16 +94,16 @@ export default function TestimonialsSection() {
   };
 
   return (
-    <section className="w-full bg-[#f5f1ea] py-20 px-6 sm:px-10 lg:px-20 font-sans text-[#1c1c1c] overflow-hidden">
+    <section className="w-full bg-[#FCFAF5] py-20 px-6 sm:px-10 lg:px-20 font-sans text-amber-950 overflow-hidden border-t border-amber-900/10">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         
         {/* Section Header */}
         <div className="text-center max-w-xl mb-12 space-y-2">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal leading-tight">
-            What Our Clients Say
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal leading-tight text-amber-950">
+            What Our Customers Say
           </h2>
-          <p className="text-xs sm:text-sm text-[#6b655f] font-light pt-2">
-            At Arkwood, we create sustainable furniture that harmonizes style and environmental awareness.
+          <p className="text-xs sm:text-sm text-gray-600 font-light pt-2">
+            At Khatauli Gud, we bring you the purest, chemical-free sweetness straight from tradition. Here's what our community thinks.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function TestimonialsSection() {
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.92 }}
               onClick={handlePrev}
-              className="w-12 h-12 rounded-full border border-[#9e712a]/40 flex items-center justify-center text-[#1c1c1c] hover:border-[#9e712a] hover:bg-[#9e712a] hover:text-white transition-all shadow-sm"
+              className="w-12 h-12 rounded-full border border-amber-600/40 flex items-center justify-center text-amber-900 hover:border-amber-600 hover:bg-amber-600 hover:text-white transition-all shadow-sm"
               aria-label="Previous Testimonial"
             >
               <ArrowLeft className="w-5 h-5" />
@@ -125,7 +125,7 @@ export default function TestimonialsSection() {
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.92 }}
               onClick={handleNext}
-              className="w-12 h-12 rounded-full bg-[#9e712a] text-white flex items-center justify-center hover:bg-[#886022] transition-all shadow-md"
+              className="w-12 h-12 rounded-full bg-amber-600 text-white flex items-center justify-center hover:bg-amber-700 transition-all shadow-md"
               aria-label="Next Testimonial"
             >
               <ArrowRight className="w-5 h-5" />
@@ -145,11 +145,11 @@ export default function TestimonialsSection() {
                   initial="initial"
                   animate="animate"
                   exit="exit"
-                  className="aspect-[4/3] rounded-sm overflow-hidden shadow-sm border border-[#e1d9ce]"
+                  className="aspect-[4/3] rounded-2xl overflow-hidden shadow-sm border border-amber-900/10"
                 >
                   <img
                     src={current.leftPreview}
-                    alt="Interior Preview Left"
+                    alt="Product Preview Left"
                     className="w-full h-full object-cover grayscale-[20%] opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </motion.div>
@@ -166,11 +166,11 @@ export default function TestimonialsSection() {
                   initial="initial"
                   animate="animate"
                   exit="exit"
-                  className="aspect-[16/10] sm:aspect-[16/9] rounded-sm overflow-hidden shadow-md border border-[#e1d9ce]"
+                  className="aspect-[16/10] sm:aspect-[16/9] rounded-3xl overflow-hidden shadow-xl border border-amber-900/10"
                 >
                   <img
                     src={current.mainImage}
-                    alt="Featured Interior Design"
+                    alt="Featured Customer View"
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -187,11 +187,11 @@ export default function TestimonialsSection() {
                   initial="initial"
                   animate="animate"
                   exit="exit"
-                  className="aspect-[4/3] rounded-sm overflow-hidden shadow-sm border border-[#e1d9ce]"
+                  className="aspect-[4/3] rounded-2xl overflow-hidden shadow-sm border border-amber-900/10"
                 >
                   <img
                     src={current.rightPreview}
-                    alt="Interior Preview Right"
+                    alt="Product Preview Right"
                     className="w-full h-full object-cover grayscale-[20%] opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </motion.div>
@@ -216,18 +216,18 @@ export default function TestimonialsSection() {
                   {[...Array(current.rating)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-5 h-5 fill-[#9e712a] text-[#9e712a]"
+                      className="w-5 h-5 fill-amber-500 text-amber-500"
                     />
                   ))}
                 </div>
-                <p className="text-base sm:text-lg text-[#2b2b2b] font-serif leading-relaxed italic max-w-xl">
+                <p className="text-base sm:text-lg text-amber-950 font-serif leading-relaxed italic max-w-xl">
                   {current.quote}
                 </p>
               </div>
 
               {/* Center Divider Line (Desktop) */}
               <div className="hidden lg:block lg:col-span-1 justify-self-center">
-                <div className="w-[1px] h-16 bg-[#d6cec3]" />
+                <div className="w-[1px] h-16 bg-amber-900/20" />
               </div>
 
               {/* Right Column: Author Profile */}
@@ -235,13 +235,13 @@ export default function TestimonialsSection() {
                 <img
                   src={current.avatar}
                   alt={current.name}
-                  className="w-14 h-14 rounded-full object-cover border border-[#e1d9ce] shadow-sm"
+                  className="w-14 h-14 rounded-full object-cover border border-amber-200 shadow-sm"
                 />
                 <div>
-                  <h4 className="text-xl font-serif font-normal text-[#1c1c1c]">
+                  <h4 className="text-xl font-serif font-normal text-amber-950">
                     {current.name}
                   </h4>
-                  <p className="text-sm text-[#6b655f] font-light">
+                  <p className="text-sm text-gray-600 font-light">
                     {current.role}
                   </p>
                 </div>

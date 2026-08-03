@@ -101,8 +101,8 @@ export default function BlogsHero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Navigation / Filter Bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-12">
-          {/* Categories */}
+        {/* <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-12">
+         
           <div className="flex flex-wrap justify-center gap-3">
             {categories.map((cat) => (
               <button
@@ -119,7 +119,7 @@ export default function BlogsHero() {
             ))}
           </div>
 
-          {/* Search Bar */}
+         
           <div className="w-full md:w-auto min-w-[250px]">
             <input
               type="text"
@@ -127,7 +127,7 @@ export default function BlogsHero() {
               className="w-full px-5 py-2.5 rounded-full border border-stone-300 focus:outline-none focus:border-[#8c7b6b] transition-colors bg-transparent"
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Featured Blog */}
         {activeCategory === "All" && (
