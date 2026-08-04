@@ -4,10 +4,10 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 // Mock service data
 const services = [
-  { id: 'Service 01', title: 'Residential Interior Design', desc: 'Transforming apartments and villas into beautiful, functional works of art.' },
-  { id: 'Service 02', title: 'Commercial Interior Solutions', desc: 'We create elegant furniture that endures and transcends generations.' },
-  { id: 'Service 03', title: 'Custom Furniture Design', desc: 'We design refined furniture that stands the test of time.' },
-  { id: 'Service 04', title: 'Office Design', desc: 'Creating workspaces that inspire, perform, and support well-being.' },
+  { id: 'Service 01', title: 'Designing Residential Spaces ', desc: 'Thoughtfully crafted interior concepts that transform houses into homes with style and purpose.' },
+  { id: 'Service 02', title: 'Commercial Interior Solutions', desc: 'Designing bespoke commercial interiors that reflect your brand identity while creating functional and engaging spaces.' },
+  { id: 'Service 03', title: 'Designer Furniture Concepts', desc: 'Innovative furniture designs tailored to your needs, style, and spatial requirements.' },
+  { id: 'Service 04', title: 'Workspace Interiors', desc: 'Designing modern workspaces that foster productivity, collaboration, and employee well-being. ' },
 ];
 
 // Service Card Component: Completely sharp background with extra padding & spacing

@@ -37,7 +37,7 @@ export default function CTASection() {
         {/* Full Background Image */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img
-            src="/cta-img.avif"
+            src="/images/IMG_3186.JPG.jpeg"
             alt="Warm Yellow Modern Sofa Living Space"
             className="w-full h-[550px] object-cover object-center scale-105 transition-transform duration-1000 hover:scale-100"
            
@@ -60,8 +60,8 @@ export default function CTASection() {
             variants={itemVariants}
             className="text-3xl sm:text-5xl md:text-6xl font-serif font-normal text-[#1c1c1c] leading-[1.15] mb-4 sm:mb-6"
           >
-            Design your <br />
-            space, define your
+           Design Spaces<br />
+           That Reflect You
           </motion.h2>
 
           {/* Subtitle / Description */}
@@ -69,7 +69,7 @@ export default function CTASection() {
             variants={itemVariants}
             className="text-xs sm:text-sm md:text-base text-[#000000] font-normal leading-relaxed max-w-lg mb-8"
           >
-            At arkwood, we create sustainable furniture that harmonizes style and environmental awareness.
+            Every exceptional space begins with thoughtful design. We create bespoke interior, furniture, and architectural concepts tailored to your vision. 
           </motion.p>
 
           {/* CTA Button */}

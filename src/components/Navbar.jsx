@@ -67,13 +67,13 @@ export default function Navbar() {
       {/* <div className="h-2.5 bg-[#38281f] w-full" /> */}
 
       {/* Main Navigation Bar */}
-      <nav className="bg-[#ede7e1] text-[#2b2b2b] px-6 flex items-center justify-between border-b border-[#e1d9ce]/60 transition-colors">
+      <nav className="bg-black text-[#2b2b2b] px-6 flex items-center justify-between  transition-colors">
         <div className="flex items-center ">
           {/* Logo */}
           <img
             src="/logo-rm-new.png"
             alt="Artivio Spaces Logo"
-            className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 object-contain"
+            className="w-16 h-16 sm:w-18 sm:h-18 md:w-24 md:h-24 object-contain"
           />
 
           {/* Brand Name */}
@@ -101,12 +101,12 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center space-x-8 text-base font-medium">
+        <div className="hidden md:flex items-center space-x-8  font-medium">
           {navLinks.map((link) => (
             <MotionLink
               key={link.name}
               href={link.href}
-              className="relative text-[#3b3b3b] hover:text-[#000000] transition-colors py-1"
+              className="relative text-[#9b7b5b] text-[18px] hover:text-[#ffffff] transition-colors py-1"
               whileHover="hover"
             >
               {link.name}

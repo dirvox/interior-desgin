@@ -5,17 +5,17 @@ import { motion } from 'framer-motion';
 const portfolioItems = [
   {
     id: 1,
-    title: 'Luxury Villa Residence',
+    title: 'Luxury Kitchen',
     category: 'Residential Interior • 2024',
-    location: 'Dubai, UAE',
-    image: '/portfolio.avif',
+    location: 'Noida, UP, India',
+    image: '/images/IMG_7935.PNG',
     direction: 'left', // Slides from left
   },
   {
     id: 2,
-    title: 'Horizon Corporate Office',
+    title: ' Corporate Office',
     category: 'Commercial Interior • 2023',
-    location: 'Singapore',
+    location: 'Delhi, India',
     image: '/portfolio2.avif',
     direction: 'right', // Slides from right
   },
@@ -24,15 +24,15 @@ const portfolioItems = [
     title: 'Grand Palace Lounge',
     category: 'Hospitality Design • 2023',
     location: 'London, UK',
-    image: '/portfolio3.avif',
+    image: '/images/hospiat-interior.png',
     direction: 'left', // Slides from left
   },
   {
     id: 4,
     title: 'Minimalist Penthouse',
     category: 'Residential Interior • 2024',
-    location: 'New York, USA',
-    image: '/portfolio4.avif',
+    location: 'Gurgaon , Haryana ,  India',
+    image: '/images/IMG_7760.PNG',
     direction: 'right', // Slides from right
   },
 ];

@@ -7,44 +7,47 @@ const testimonials = [
   {
     id: 1,
     name: 'Priya Sharma',
-    role: 'Homemaker',
+    role: 'Homeowner',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"Reminds me of my childhood! The traditional jaggery blocks have that authentic, earthy taste you just can’t find in supermarkets anymore. Absolutely pure."',
-    mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
-    leftPreview: '/images/IMG_7794.PNG',
-    rightPreview: '/images/IMG_4881.JPG.jpeg',
+    quote: '"Our once-sterile villa is now a warm, beautiful masterpiece. The custom furniture and clever space planning are genius. Truly a life-changing design experience that reflects us perfectly."',
+    mainImage: '/images/IMG_4732.JPG.jpeg', // Modern luxury living room
+    leftPreview: '/images/IMG_3190.JPG.jpeg', // Kitchen cabinetry close-up
+    rightPreview: '/images/IMG_4733.JPG.jpeg', // Textured textiles close-up
   },
   {
     id: 2,
     name: 'David Chen',
-    role: 'Artisan Baker',
+    role: 'Commercial Developer',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"I’ve replaced all refined sugar in my bakery with Khatauli Gud powder. The texture is phenomenal, and my customers love the rich, natural caramel-like flavor it adds."',
-    mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
-    leftPreview: '/images/IMG_7794.PNG',
-    rightPreview: '/images/IMG_4881.JPG.jpeg',  },
+    quote: '"The design team optimized our retail spaces beyond expectations. Every square foot is purposeful, the branding integration is seamless, and our clients have noticed a significant difference. A game changer for commercial projects."',
+    mainImage: 'https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=600&auto=format&fit=crop', // Modern commercial lobby/office
+    leftPreview: 'https://images.unsplash.com/photo-1598188172960-b6330b62e493?q=80&w=300&auto=format&fit=crop', // Unique pendant lighting close-up
+    rightPreview: 'https://images.unsplash.com/photo-1591111624029-79753c19363d?q=80&w=300&auto=format&fit=crop', // Terrazzo floor close-up
+  },
   {
     id: 3,
     name: 'Dr. Anil Kumar',
-    role: 'Nutritionist',
+    role: 'Private Practice Physician',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"Exceptional quality. I always recommend this to my clients looking for a healthier, chemical-free alternative to sugar. Packed with essential minerals and incredibly clean."',
-      mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
-    leftPreview: '/images/IMG_7794.PNG',
-    rightPreview: '/images/IMG_4881.JPG.jpeg',  },
+    quote: '"Patients always complement our new clinic environment. It’s calming, functional, and supports our workflow exceptionally well. The attention to ergonomic details and supportive design is commendable."',
+    mainImage: 'https://images.unsplash.com/photo-1521791136064-7986c292321d?q=80&w=600&auto=format&fit=crop', // Premium office lounge
+    leftPreview: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=300&auto=format&fit=crop', // Custom armchair detail close-up
+    rightPreview: 'https://images.unsplash.com/photo-1618221823713-acb19e27c157?q=80&w=300&auto=format&fit=crop', // Wood paneling and accent close-up
+  },
   {
     id: 4,
     name: 'Sarah Jenkins',
-    role: 'Health Enthusiast',
+    role: 'Urban Professional',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&auto=format&fit=crop',
     rating: 5,
-    quote: '"The jaggery cubes are a game changer for my morning tea. So pure, perfectly portioned, and they dissolve beautifully. I love that it’s completely natural!"',
-  mainImage: '/images/IMG_7663.JPEG', // Sugarcane/farm/food vibe
-    leftPreview: '/images/IMG_7794.PNG',
-    rightPreview: '/images/IMG_4881.JPG.jpeg',  },
+    quote: '"The bespoke media unit and custom kitchen island are game changers in our small apartment. Beautifully crafted and perfectly portioned storage. I love that it looks so natural and clean!"',
+    mainImage: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=600&auto=format&fit=crop', // Modern apartment interior
+    leftPreview: 'https://images.unsplash.com/photo-1600566752355-3979c13b3d16?q=80&w=300&auto=format&fit=crop', // Minimalist cabinet handle close-up
+    rightPreview: 'https://images.unsplash.com/photo-1600585152112-9c1694f47942?q=80&w=300&auto=format&fit=crop', // Oak joinery details close-up
+  },
 ];
 
 export default function TestimonialsSection() {
@@ -97,10 +100,10 @@ export default function TestimonialsSection() {
         {/* Section Header */}
         <div className="text-center max-w-xl mb-12 space-y-2">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal leading-tight text-amber-950">
-            What Our Customers Say
+            What Our Clients Say
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 font-light pt-2">
-            At Khatauli Gud, we bring you the purest, chemical-free sweetness straight from tradition. Here's what our community thinks.
+            We transform spaces into beautiful, functional works of art. Hear from the communities we've served, from residential homes to commercial icons.
           </p>
         </div>
 
@@ -146,7 +149,7 @@ export default function TestimonialsSection() {
                 >
                   <img
                     src={current.leftPreview}
-                    alt="Product Preview Left"
+                    alt="Interior Design Detail Left"
                     className="w-full h-full object-cover grayscale-[20%] opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </motion.div>
@@ -167,7 +170,7 @@ export default function TestimonialsSection() {
                 >
                   <img
                     src={current.mainImage}
-                    alt="Featured Customer View"
+                    alt="Featured Project View"
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -188,7 +191,7 @@ export default function TestimonialsSection() {
                 >
                   <img
                     src={current.rightPreview}
-                    alt="Product Preview Right"
+                    alt="Interior Design Detail Right"
                     className="w-full h-full object-cover grayscale-[20%] opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </motion.div>

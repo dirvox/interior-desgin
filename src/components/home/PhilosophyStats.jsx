@@ -116,8 +116,9 @@ export default function PhilosophyStats() {
             variants={textItemVariants}
             className="text-3xl sm:text-5xl lg:text-6xl font-serif font-normal text-[#1c1c1c] leading-[1.15]"
           >
-            Crafting Spaces <br />
-            That Reflect Identity
+           Every Great Space
+ <br />
+          Begins with Great Design
           </motion.h2>
 
           {/* Paragraph Description */}
@@ -125,7 +126,8 @@ export default function PhilosophyStats() {
             variants={textItemVariants}
             className="text-sm md:text-base text-[#6b655f] leading-relaxed font-light max-w-md"
           >
-            LUXORA is a boutique interior and furniture design studio specializing in high-end residential and commercial projects that merge elegance with functionality.
+            Artivio Spaces creates personalized interior, furniture, and architectural designs that seamlessly combine creativity, functionality, and refined aesthetics.
+
           </motion.p>
         </motion.div>
 

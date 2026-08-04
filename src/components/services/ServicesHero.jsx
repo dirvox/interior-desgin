@@ -141,12 +141,12 @@ export default function ServicesHero() {
                 <ArrowRight className="transition group-hover:translate-x-2" />
               </Link>
 
-              <Link
+              {/* <Link
                 href="/portfolio"
                 className="rounded-full border border-gray-300 px-8 py-4 font-semibold hover:bg-white"
               >
                 View Projects
-              </Link>
+              </Link> */}
             </motion.div>
 
             {/* Features */}
@@ -211,7 +211,7 @@ export default function ServicesHero() {
               className="overflow-hidden  shadow-2xl"
             >
               <img
-                src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+                src="/images/IMG_3191.JPG.jpeg"
                 alt="Interior Design"
                 width={700}
                 height={850}

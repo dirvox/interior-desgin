@@ -4,34 +4,34 @@ import { motion } from "framer-motion";
 
 const processSteps = [
   {
-    number: "1",
+    number: "01",
     title: "Discovery & Consultation",
     description:
-      "Understanding your vision, requirements, and lifestyle to lay a strong foundational blueprint.",
-    image: "/process-1.png",
+      "Understanding your vision, requirements, and lifestyle to establish a strong foundation for the design.",
+    image: "/process1.png",
     imageLeft: true,
   },
   {
     number: "2",
     title: "Concept Design",
     description:
-      "Developing detailed spatial layouts, material palettes, and architectural design direction.",
+      "Developing space plans, design concepts, material selections, and a cohesive design direction.",
     image: "/process-2.png",
     imageLeft: false,
   },
   {
     number: "3",
-    title: "3D Visualization",
+    title: "Design Development",
     description:
-      "Photorealistic renders of your future space to visualize every light, texture, and detail.",
+      "Refining the selected concept with detailed layouts, furniture plans, material specifications, and curated design details.",
     image: "/process-3.png",
     imageLeft: true,
   },
   {
     number: "4",
-    title: "Production & Installation",
+    title: "Design Documentation",
     description:
-      "Precision craftsmanship and flawless execution delivered on schedule.",
+      "Delivering comprehensive drawings, specifications, and design documentation for seamless implementation by your execution team.",
     image: "/process-4.png",
     imageLeft: false,
   },

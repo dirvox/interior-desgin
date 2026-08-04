@@ -200,7 +200,7 @@ export default function LeadFormSection() {
         {/* RIGHT COLUMN: Image Showcase with Floating Credibility Badges */}
         <div className="lg:col-span-5 relative min-h-[400px] lg:min-h-full overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop"
+            src="/images/IMG_7763.PNG"
             alt="Luxury Interior Design"
             className="w-full h-full object-cover"
           />

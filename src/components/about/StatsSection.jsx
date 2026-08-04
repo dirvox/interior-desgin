@@ -10,7 +10,7 @@ const stats = [
     label: "Design Awards",
   },
   {
-    value: 32,
+    value: 320,
     suffix: "+",
     label: "Global Projects",
   },
@@ -20,7 +20,7 @@ const stats = [
     label: "Square Meters Designed",
   },
   {
-    value: 100,
+    value: 180,
     suffix: "",
     label: "Happy Clients",
   },

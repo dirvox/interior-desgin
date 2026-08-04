@@ -70,16 +70,17 @@ export default function HeroSection() {
           variants={itemVariants}
           className="text-xs sm:text-sm md:text-base tracking-[0.25em] uppercase font-semibold text-[#ffffff] mb-4 md:mb-6"
         >
-          Interior & Furniture Design Studio
+         INTERIOR DESIGN | SPACE PLANNING | EXECUTION 
+
         </motion.p>
 
         {/* Main Headline */}
         <motion.h1
           variants={itemVariants}
-          className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-normal tracking-tight text-white leading-[1.1] mb-6 max-w-4xl"
+          className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl font-serif font-normal tracking-tight text-white leading-[1.1] mb-6 max-w-4xl"
         >
-          Designing Timeless <br className="hidden sm:block" />
-          <span className="italic font-light">Luxury Interiors</span>
+          Transforming Spaces Into <br className="hidden sm:block" />
+          <span className="italic font-light">Timeless Interiors</span>
         </motion.h1>
 
         {/* Paragraph Description */}
@@ -87,8 +88,7 @@ export default function HeroSection() {
           variants={itemVariants}
           className="text-sm sm:text-base md:text-lg text-gray-200 font-light max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          We create refined spaces through bespoke furniture, architectural
-          harmony, and thoughtful craftsmanship.
+         From elegant interiors to custom furniture and architectural concepts, we create designs that reflect your vision with creativity, precision, and purpose. 
         </motion.p>
 
         {/* Call to Action Buttons */}
