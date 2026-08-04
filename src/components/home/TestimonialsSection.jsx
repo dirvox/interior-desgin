@@ -22,9 +22,9 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop',
     rating: 5,
     quote: '"The design team optimized our retail spaces beyond expectations. Every square foot is purposeful, the branding integration is seamless, and our clients have noticed a significant difference. A game changer for commercial projects."',
-    mainImage: 'https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=600&auto=format&fit=crop', // Modern commercial lobby/office
-    leftPreview: 'https://images.unsplash.com/photo-1598188172960-b6330b62e493?q=80&w=300&auto=format&fit=crop', // Unique pendant lighting close-up
-    rightPreview: 'https://images.unsplash.com/photo-1591111624029-79753c19363d?q=80&w=300&auto=format&fit=crop', // Terrazzo floor close-up
+    mainImage: '/images/IMG_4732.JPG.jpeg', // Modern luxury living room
+    leftPreview: '/images/IMG_3190.JPG.jpeg', // Kitchen cabinetry close-up
+    rightPreview: '/images/IMG_4733.JPG.jpeg', // Textured textiles close-up
   },
   {
     id: 3,
@@ -33,9 +33,9 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop',
     rating: 5,
     quote: '"Patients always complement our new clinic environment. It’s calming, functional, and supports our workflow exceptionally well. The attention to ergonomic details and supportive design is commendable."',
-    mainImage: 'https://images.unsplash.com/photo-1521791136064-7986c292321d?q=80&w=600&auto=format&fit=crop', // Premium office lounge
-    leftPreview: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=300&auto=format&fit=crop', // Custom armchair detail close-up
-    rightPreview: 'https://images.unsplash.com/photo-1618221823713-acb19e27c157?q=80&w=300&auto=format&fit=crop', // Wood paneling and accent close-up
+    mainImage: '/images/IMG_4732.JPG.jpeg', // Modern luxury living room
+    leftPreview: '/images/IMG_3190.JPG.jpeg', // Kitchen cabinetry close-up
+    rightPreview: '/images/IMG_4733.JPG.jpeg', // Textured textiles close-up
   },
   {
     id: 4,
@@ -44,9 +44,9 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&auto=format&fit=crop',
     rating: 5,
     quote: '"The bespoke media unit and custom kitchen island are game changers in our small apartment. Beautifully crafted and perfectly portioned storage. I love that it looks so natural and clean!"',
-    mainImage: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=600&auto=format&fit=crop', // Modern apartment interior
-    leftPreview: 'https://images.unsplash.com/photo-1600566752355-3979c13b3d16?q=80&w=300&auto=format&fit=crop', // Minimalist cabinet handle close-up
-    rightPreview: 'https://images.unsplash.com/photo-1600585152112-9c1694f47942?q=80&w=300&auto=format&fit=crop', // Oak joinery details close-up
+    mainImage: '/images/IMG_4732.JPG.jpeg', // Modern luxury living room
+    leftPreview: '/images/IMG_3190.JPG.jpeg', // Kitchen cabinetry close-up
+    rightPreview: '/images/IMG_4733.JPG.jpeg', // Textured textiles close-up
   },
 ];
 
